@@ -1,0 +1,37 @@
+<div class="container d-flex justify-content-center align-items-center vh-100">
+  <div class="row">
+    <form
+      #regstr="ngForm"
+      (ngSubmit)="submit(regstr)"
+      class="form-group">
+
+      <h3 class="text-center">Pet Registration</h3>
+        <div class="form-floating mb-3">
+          <input
+            type="text"
+            id="petName"
+            class="form-control"
+            placeholder="Name">
+          <label for="petName">Name</label>
+        </div>
+        <div class="form-floating mb-3">
+          <input
+            type="text"
+            id="petAge"
+            class="form-control"
+            placeholder="Age">
+          <label for="petName">Age</label>
+        </div>
+        <div class="form-floating mb-3">
+          <input
+            type="text"
+            id="petName"
+            class="form-control"
+            placeholder="Breed">
+          <label for="petName">Breed</label>
+        </div>
+        <pre></pre>
+        <button class="btn btn-primary">Submit</button>
+    </form>
+  </div>
+</div>
